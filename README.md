@@ -5,8 +5,8 @@
 
 - 
 ## Build the image and run
-docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
-docker run -e QR_CODE_DEFAULT_URL=www.yahoo.com -e QR_CODE_IMAGE_DIRECTORY=images -v $(pwd):/home/ qrcode
+1. docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
+2. docker run -e QR_CODE_DEFAULT_URL=www.yahoo.com -e QR_CODE_IMAGE_DIRECTORY=images -v $(pwd):/home/ qrcode
 
 ## Docker Commands
 - docker ps - Lists Running Containers
