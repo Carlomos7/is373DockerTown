@@ -21,3 +21,8 @@
 - docker stats <- shows you live running containers and associated info
 - docker rm <containername> removes old container with a name or id 
 - docker exec -it <containerid or name> bash   <-log into a running container
+
+Command Reference - No Particular Order
+
+docker build -t kaw393939/python312 . <- builds image called "kaw393939/python312"
+docker run -e QR_CODE_DEFAULT_URL=www.yahoo.com -e QR_CODE_IMAGE_DIRECTORY=images -v $(pwd):/home/ qrcode
